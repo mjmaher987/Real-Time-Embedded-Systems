@@ -1,10 +1,7 @@
+# Author: Moahammad Javad Maheronnaghsh
+# Email: mjmaher987@gmail.com   |   m.j.maheronnaghsh@gmail.com
 
 from __future__ import unicode_literals
-
-
-
-
-
 
 import math
 
