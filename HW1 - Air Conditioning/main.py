@@ -1,5 +1,5 @@
-# Mohammad Javad Maheronnaghsh
-# 99105691
+# Author: Moahammad Javad Maheronnaghsh
+# Email: mjmaher987@gmail.com   |   m.j.maheronnaghsh@gmail.com
 
 global_state = 1
 S2_state_cooler = 0
