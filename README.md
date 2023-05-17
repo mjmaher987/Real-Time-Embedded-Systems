@@ -6,4 +6,5 @@ Embedded Systems - Sharif University of Technology
 * Real Time Instructor: Dr. Sepideh Safari
 
 ## TO DO
-### Add the scheduling algorithms and their Demo (Visualization)
+- Add the scheduling algorithms and their Demo (Visualization)
+- Add different algorithms in the real-time systems course
