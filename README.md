@@ -7,7 +7,7 @@ Embedded Systems - Sharif University of Technology
 
 ## TO DO
 - Add the scheduling algorithms and their Demo (Visualization)
-- Add different algorithms in the real-time systems course
+- Add different algorithms (code) in the real-time systems course
 - Upload the lecture notes
 - Upload useful slides
 - Upload Useful assignments and answers
