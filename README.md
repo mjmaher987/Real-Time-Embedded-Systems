@@ -53,6 +53,10 @@ Assumption: All periodic tasks have hard deadlines, and aperiodics dont have dea
 - Dynamic Sporadic Server
   - extension of SS
   - Question: Difference between it and fixed one?
+- Total Bandwidth Server
+  - d_k = max(r_k, d_{k-1}) + C_k/U_S
+  - U_S + U_p = 1
+- Earliset Deadline Late
  
 
 ## TO DO
