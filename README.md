@@ -68,6 +68,17 @@ Assumption: All periodic tasks have hard deadlines, and aperiodics dont have dea
     - f_{s, k} = t + C_{a, k} + Ip(t, d_{s, k})
     - Ip = Interfernces (the tasks that begin before t and end between t and ...).
 
+### Resource Access Protocols
+- NPP : None-Preemptive Protocol
+
+- HLP : Highest Locker Priority
+
+- PIP : Priority Inheritance Protocol
+
+- PCP : Priority Ceiling Protocol
+
+- SRP : Stack Resource Policy
+
 ## TO DO
 - Add the scheduling algorithms and their Demo (Visualization)
 - Add different algorithms (code) in the real-time systems course
