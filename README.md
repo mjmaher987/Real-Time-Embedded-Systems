@@ -57,6 +57,11 @@ Assumption: All periodic tasks have hard deadlines, and aperiodics dont have dea
   - d_k = max(r_k, d_{k-1}) + C_k/U_S
   - U_S + U_p = 1
 - Earliset Deadline Late
+  - Schedule as late as possible
+- Improved Priority Server
+  -  First run EDL (Earliest Deadline Late) on the tasks.
+  -  Then at the slack times, charge the server (amount of charge = length of edl slack time).
+  -  charge and decharge the amounts (pass the amounts between each other) as said in priority exchange.
  
 
 ## TO DO
