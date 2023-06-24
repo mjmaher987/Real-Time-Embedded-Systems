@@ -9,6 +9,7 @@ Embedded Systems - Sharif University of Technology
 ### Fixed Priority Servers
 - Polling Server
 - Deferrable Server
+  
   In this algorithm we have a server, and it has a priority based on its rate (if the algm is RM).
   In the periods, it is charged up to its capacity (wcet aperiodic).
   The difference between this algorithm and the "Polling Server" is that polling server polls and asks in a periodic way if there are any aperiodic tasks waiting, but deferrable server waits for the aperiodic task to come.
