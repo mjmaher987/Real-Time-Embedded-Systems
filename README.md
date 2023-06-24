@@ -23,6 +23,8 @@ Embedded Systems - Sharif University of Technology
 - Sporadic Server
   - It enhances average response time of aperiodic tasks without degrading the utilization bound for periodic tasks.
   - It shifts the time of charging the server capacity.
+  - RT = Replenishment Time = t_A + T_S
+  - RA = Replenishment Amount = the capacity consumed at [t_A, t_i].
 
 
   
