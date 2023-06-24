@@ -7,8 +7,10 @@ Embedded Systems - Sharif University of Technology
 
 ## Contents
 ### Fixed Priority Servers
+Assumption: Periodics are scheduled under RM (utilization bound = n(2^(1/n)-1) ).
+
 - Polling Server
-  The server asks periodically from aperioci tasks if there are any aperiodic ones.
+  - The server asks periodically from aperioci tasks if there are any aperiodic ones.
   
 - Deferrable Server
   
@@ -36,12 +38,22 @@ Embedded Systems - Sharif University of Technology
   - Policy: Shift everything in a way that periodic tasks dont miss!
 
 
-  
-  
-  
-
 ### Dynamic Priority Servers
+Question: Why do we call it "dynamic"?
 
+Goal: Enhance Average Response Time of Aperiodic Tasks (without compromising schedulability of hard periodic tasks)
+
+Assumption: Periodic tasks are scheduled by EDF (utilization bound = 1).
+
+Assumption: All periodic tasks have hard deadlines, and aperiodics dont have deadline and they should be scheduled ASAP.
+
+- Dynamic Priority Exchange (DPE) Server
+  - server can trade its capacity with lower-priority tasks (EDF: has longer deadline).
+  - server capacity (runtime is never wasted?!).
+- Dynamin Sporadic Server
+  - extension of SS
+  - Question: Difference between it and fixed one?
+ 
 
 ## TO DO
 - Add the scheduling algorithms and their Demo (Visualization)
