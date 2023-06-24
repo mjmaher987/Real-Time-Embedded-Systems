@@ -14,7 +14,7 @@ Embedded Systems - Sharif University of Technology
   In the periods, it is charged up to its capacity (wcet aperiodic).
   The difference between this algorithm and the "Polling Server" is that polling server polls and asks in a periodic way if there are any aperiodic tasks waiting, but deferrable server waits for the aperiodic task to come.
 
-  - Priority Exchange
+- Priority Exchange
 
   This algorithm is created for soft real-time aperiodic tasks.
   It has worse performance in terms of DS (Deferrable Server).
