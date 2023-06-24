@@ -25,6 +25,9 @@ Embedded Systems - Sharif University of Technology
   - It shifts the time of charging the server capacity.
   - RT = Replenishment Time = t_A + T_S
   - RA = Replenishment Amount = the capacity consumed at [t_A, t_i].
+  - t_i = the last time that SS is active (SS is active when the aperiodic task is running or the task that is running, has a higher priority than aperiodic one).
+  - comsuming server capacity is gradually but charging is suddenly (at once, the server capacity is increased by RA).
+  - Question: What if the RA continues till RT?!
 
 
   
