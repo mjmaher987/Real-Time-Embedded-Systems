@@ -8,6 +8,8 @@ Embedded Systems - Sharif University of Technology
 ## Contents
 ### Fixed Priority Servers
 - Polling Server
+  The server asks periodically from aperioci tasks if there are any aperiodic ones.
+  
 - Deferrable Server
   
   - In this algorithm we have a server, and it has a priority based on its rate (if the algm is RM).
@@ -28,6 +30,10 @@ Embedded Systems - Sharif University of Technology
   - t_i = the last time that SS is active (SS is active when the aperiodic task is running or the task that is running, has a higher priority than aperiodic one).
   - comsuming server capacity is gradually but charging is suddenly (at once, the server capacity is increased by RA).
   - Question: What if the RA continues till RT?!
+
+- Stack Stealing
+  - stack_time = abs_deadline - time - remaining_c
+  - Policy: Shift everything in a way that periodic tasks dont miss!
 
 
   
