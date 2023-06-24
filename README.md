@@ -31,8 +31,8 @@ Embedded Systems - Sharif University of Technology
   - comsuming server capacity is gradually but charging is suddenly (at once, the server capacity is increased by RA).
   - Question: What if the RA continues till RT?!
 
-- Stack Stealing
-  - stack_time = abs_deadline - time - remaining_c
+- Slack Stealing
+  - slack_time = abs_deadline - time - remaining_c
   - Policy: Shift everything in a way that periodic tasks dont miss!
 
 
