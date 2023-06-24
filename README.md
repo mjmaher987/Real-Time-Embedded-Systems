@@ -50,7 +50,7 @@ Assumption: All periodic tasks have hard deadlines, and aperiodics dont have dea
 - Dynamic Priority Exchange (DPE) Server
   - server can trade its capacity with lower-priority tasks (EDF: has longer deadline).
   - server capacity (runtime is never wasted?!).
-- Dynamin Sporadic Server
+- Dynamic Sporadic Server
   - extension of SS
   - Question: Difference between it and fixed one?
  
