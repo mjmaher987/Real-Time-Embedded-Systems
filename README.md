@@ -58,11 +58,15 @@ Assumption: All periodic tasks have hard deadlines, and aperiodics dont have dea
   - U_S + U_p = 1
 - Earliset Deadline Late
   - Schedule as late as possible
-- Improved Priority Server
+- Improved Priority Exchange
   -  First run EDL (Earliest Deadline Late) on the tasks.
   -  Then at the slack times, charge the server (amount of charge = length of edl slack time).
   -  charge and decharge the amounts (pass the amounts between each other) as said in priority exchange.
- 
+- Improving TBS (Improving Total Bandwidth)
+  - we can shorten the time, it means that we can make the deadline closer.
+  - do some iterations using this formula:
+    - f_{s, k} = t + C_{a, k} + Ip(t, d_{s, k})
+    - Ip = Interfernces (the tasks that begin before t and end between t and ...).
 
 ## TO DO
 - Add the scheduling algorithms and their Demo (Visualization)
